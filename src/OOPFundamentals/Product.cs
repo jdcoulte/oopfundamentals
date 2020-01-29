@@ -35,28 +35,6 @@ namespace OOPFundamentals
 
             return isValid;
         }
-
-        public Product Retrieve(int productId)
-        {
-            // Code that retrieves the defined product
-
-            return new Product();
-        }
-
-        public List<Product> Retrieve()
-        {
-            // Code that retrieves all of the products
-            
-            return new List<Product>();
-        }
-
-        public bool Save()
-        {
-            // Code that saves the defined product
-            
-            return true;
-        }
-
     }
 
 

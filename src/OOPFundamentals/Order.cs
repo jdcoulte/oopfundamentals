@@ -28,27 +28,6 @@ namespace OOPFundamentals
 
             return isValid;
         }
-
-        public Order Retrieve(int orderId)
-        {
-            // Code that retrieves the defined order
-
-            return new Order();
-        }
-
-        public List<Order> Retrieve()
-        {
-            // Code that retrieves all of the orders
-            
-            return new List<Order>();
-        }
-
-        public bool Save()
-        {
-            // Code that saves the defined order
-            
-            return true;
-        }
     }
 
 
