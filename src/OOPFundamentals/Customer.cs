@@ -57,6 +57,8 @@ namespace OOPFundamentals
 
             return isValid;
         }
+
+        public override string ToString() => FullName;
     }
 
 

@@ -19,6 +19,7 @@ namespace OOPFundamentals
                 product.ProductName = "Product 1";
                 product.CurrentPrice = 9.99m;
             }
+
             return product;
         }
 
