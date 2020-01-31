@@ -1,9 +1,10 @@
 using System;
 using System.Collections.Generic;
+using commonclasses;
 
 namespace OOPFundamentals
 {
-    public class Order : EntityBase
+    public class Order : EntityBase, ILoggable
     {
         public Order() : this(0)
         {
@@ -29,8 +30,12 @@ namespace OOPFundamentals
 
             return isValid;
         }
-
+        
         public override string ToString() => $"{OrderDate.Value.Date} ({OrderId})";
+
+        public string Log() =>
+            $"{OrderId}: Date: {this.OrderDate.Value.Date} Status: {this.EntityState.ToString()}";
+
     }
 
 

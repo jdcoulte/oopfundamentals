@@ -14,3 +14,6 @@ C:\Users\jeffc\Google Drive\_Tech Development Project\PluralSights\oop\src\OOPFu
 C:\Users\jeffc\Google Drive\_Tech Development Project\PluralSights\oop\src\OOPFundamentals\obj\Debug\netstandard2.0\OOPFundamentals.AssemblyInfo.cs
 C:\Users\jeffc\Google Drive\_Tech Development Project\PluralSights\oop\src\OOPFundamentals\obj\Debug\netstandard2.0\OOPFundamentals.dll
 C:\Users\jeffc\Google Drive\_Tech Development Project\PluralSights\oop\src\OOPFundamentals\obj\Debug\netstandard2.0\OOPFundamentals.pdb
+C:\Users\jeffc\Google Drive\_Tech Development Project\PluralSights\oop\src\OOPFundamentals\bin\Debug\netstandard2.0\commonclasses.dll
+C:\Users\jeffc\Google Drive\_Tech Development Project\PluralSights\oop\src\OOPFundamentals\bin\Debug\netstandard2.0\commonclasses.pdb
+C:\Users\jeffc\Google Drive\_Tech Development Project\PluralSights\oop\src\OOPFundamentals\obj\Debug\netstandard2.0\OOPFundamentals.csproj.CopyComplete

@@ -6,7 +6,9 @@ namespace OOPFundamentals
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var a = " ";
+            var b = "Hello You";
+            Console.WriteLine("Hello World");
         }
     }
 }

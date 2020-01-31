@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "commonclasses/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/commonclasses.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/commonclasses.dll": {}
+        }
       }
     }
   },
@@ -172,11 +182,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "commonclasses/1.0.0": {
+      "type": "project",
+      "path": "../../commonclasses/commonclasses.csproj",
+      "msbuildProject": "../../commonclasses/commonclasses.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "commonclasses >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -202,7 +218,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\jeffc\\Google Drive\\_Tech Development Project\\PluralSights\\oop\\commonclasses\\commonclasses.csproj": {
+              "projectPath": "C:\\Users\\jeffc\\Google Drive\\_Tech Development Project\\PluralSights\\oop\\commonclasses\\commonclasses.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using commonclasses;
 
 namespace OOPFundamentals
 {
-    public class Customer : EntityBase
+    public class Customer : EntityBase, ILoggable
     {
         public Customer(): this(0)
         {
@@ -58,6 +56,9 @@ namespace OOPFundamentals
             return isValid;
         }
 
+        public string Log() =>
+            $"{CustomerId}: {FullName} Email: {EmailAddress} Status: {EntityState.ToString()}";
+        
         public override string ToString() => FullName;
     }
 
