@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPFundamentals
 {
-    public class Product
+    public class Product : EntityBase
     {
         public Product()
         {
@@ -26,7 +26,7 @@ namespace OOPFundamentals
 
         public decimal? CurrentPrice { get; set; }
 
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
 

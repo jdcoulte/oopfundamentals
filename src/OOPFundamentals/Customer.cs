@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPFundamentals
 {
-    public class Customer
+    public class Customer : EntityBase
     {
         public Customer(): this(0)
         {
@@ -48,7 +48,7 @@ namespace OOPFundamentals
         public List<Address> AddressList { get; set; }
         public static int InstanceCount { get; set; }
 
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
 

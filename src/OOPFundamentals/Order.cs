@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace OOPFundamentals
 {
-    public class Order
+    public class Order : EntityBase
     {
         public Order() : this(0)
         {
@@ -21,7 +21,7 @@ namespace OOPFundamentals
         public List<OrderItem> OrderItems { get; set; }
         public int ShippingAddressId { get; set; }
 
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
 
